@@ -2,3 +2,6 @@
 
 # Reflektion
 Jag lärde mig att container säkerhet handlar om att minska risker både i images, konfigurationer och själva Kubernetes miljön. Det räcker inte att bara köra en container, utan man måste också kontrollera vilka paket som finns i den och vilka rättigheter den har. Jag förstod också att små misstag, som att köra som root eller använda gamla images, kan skapa stora säkerhetsproblem. SBOM är viktigt eftersom det visar exakt vilka komponenter och bibliotek som finns i en container. Det gör det lättare att upptäcka sårbarheter och förstå vad som påverkas om ett paket visar sig vara osäkert. Policy enforcement med Gatekeeper förändrar arbetet i Kubernetes eftersom säkerhetsregler blir automatiska istället för något man bara hoppas att alla följer. Det betyder att felaktiga deploymenter kan stoppas direkt innan de hamnar i klustret. På så sätt blir säkerhet en naturlig del av utvecklingsprocessen och inte bara en kontroll i efterhand.
+
+# #meafterimdone
+![Pipeline demo](assets/seal-spinning-around.gif)
